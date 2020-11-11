@@ -339,7 +339,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 function start() {
   // see if their browser supports this
   if (!'SpeechRecognition' in window) {
-    console.log('Sorry your browser does not support speech');
+    alert('Sorry your browser does not support speech');
     return;
   }
 
